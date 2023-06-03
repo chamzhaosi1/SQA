@@ -13,5 +13,8 @@ import pytest
 
 @pytest.mark.parametrize("a, b, expected", [(2,3,-5),(-3,3,0),(3,4,7),(-5,-3,-8),(6,3,9),(7,"3",10)])
 def test_add(a, b, expected):
-   assert a+b == expected
+   assert add(a, b) == expected
    
+def add(a, b):
+    return a+b
+
