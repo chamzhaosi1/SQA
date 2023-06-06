@@ -28,8 +28,9 @@ venv\Scripts\activate.ps1
 # Change directory to unit test folder
 cd C:\Users\cham\OneDrive\Documents\Project\SQA\unit_test
 
-# Install pytest
+# Install required library
 pip install pytest
+pip install flask
 
 ## Remark
 #Running pytest without mentioning a filename will run all files of format test_*.py or *_test.py in the current directory and subdirectories. Pytest automatically identifies those files as test files. We can make pytest run other filenames by explicitly mentioning them.
