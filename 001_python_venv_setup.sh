@@ -26,7 +26,10 @@ cd C:\Users\cham\OneDrive\Documents\Project\SQA
 venv\Scripts\activate.ps1
 
 # Change directory to unit test folder
-cd C:\Users\cham\OneDrive\Documents\Project\SQA\unit_test
+cd C:\Users\cham\OneDrive\Documents\Project\SQA\01_unit_test
+
+# Change directory to api test folder
+cd C:\Users\cham\OneDrive\Documents\Project\SQA\02_api_test
 
 # Install required library
 ## Assignment 1
