@@ -31,6 +31,9 @@ cd C:\Users\cham\OneDrive\Documents\Project\SQA\01_unit_test
 # Change directory to api test folder
 cd C:\Users\cham\OneDrive\Documents\Project\SQA\02_api_test
 
+# Change directory to web test folder
+cd C:\Users\cham\OneDrive\Documents\Project\SQA\03_web_test
+
 # Install required library
 ## Assignment 1
 pip install pytest
@@ -55,4 +58,5 @@ pip install selenium
 # chromedriver_win32.zip
 
 # Extrieve the file to the porject folder
+
 

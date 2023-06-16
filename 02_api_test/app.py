@@ -56,7 +56,7 @@ def mul():
         # to make sure that the input is integer
         if isinstance(data['x'], int) and isinstance(data['y'], int):
             calculator = Calculator()
-            result = calculator.mul(data['x'], data['y'])
+            result = calculator.mul(data['x'], data['y']) 
             return jsonify(result)
         else:
             raise ValueError("Input must be an integer.")
